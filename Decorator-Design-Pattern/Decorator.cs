@@ -8,7 +8,7 @@ public abstract class Decorator<T> : IComponent<T>
     // Constructor to initialize the decorator with the component it decorates.
     public Decorator(IComponent<T> component)
     {
-        this.component = component;
+        this.component = component;  
     }
 
     // Override the GetText method to call the decorated component's GetText method.
